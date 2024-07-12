@@ -1,0 +1,62 @@
+:root {
+    --clr-main: #ac6515;
+    --clr-white: #ececec;
+    --clr-gray: #f3b2b242;
+    --clr-red: #bd0606;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--clr-main);
+}
+
+.container {
+    width: 330px;
+    background-color: var(--clr-white);
+    padding: 20px;
+    border: 1px solid var(--clr-white);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px var(--clr-gray);
+    margin: 40px auto;
+}
+h2 {
+    text-align: center;
+    color: var(--clr-main);
+}
+
+.usuario-texto {
+    color: var(--clr-main);
+}
+
+.input-login-registro {
+    border-color: var(--clr-main);
+    border-radius: .25rem;
+}
+
+.pass-texto {
+    color: var(--clr-main);
+}
+
+.correo-texto {
+    color: var(--clr-main);
+}
+
+.texto-cuenta {
+    color: var(--clr-main);
+}
+
+.boton-enviar {
+    border: 0;
+    background-color: var(--clr-main);
+    color: var(--clr-white);
+    padding: .30rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid var(--clr-main);
+    transition: background-color .2s, color .2s;
+}
+
+.boton-enviar:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+}

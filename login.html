@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-2.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Iniciar sesion</h2>
+        <form id="login-form">
+            <label class="usuario-texto" for="login-usuario">Usuario:</label>
+            <input type="text" id="login-usuario" class="input-login-registro" name="login-usuario" required><br><br>
+            <label class="pass-texto" for="login-pass">Contraseña:</label>
+            <input type="password" id="login-pass" class="input-login-registro" name="login-pass" required><br><br>
+            <input class="boton-enviar" type="submit" value="Iniciar sesion">
+        </form>
+        <p class="texto-cuenta">¿No estas registrado? <a href="registro.html">Registrate</a></p>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+    {"id":"1", "img":"./img/procesador1.jpg", "nombre":"Procesador Intel Core i5", "categoria":"Procesadores", "precio":500},
+    {"id":"2", "img":"./img/procesador2.jpg", "nombre":"Procesador Intel Core i7", "categoria":"Procesadores", "precio":650},
+    {"id":"3", "img":"./img/procesador3.jpg", "nombre":"Procesador AMD Ryzen 5 5600G", "categoria":"Procesadores", "precio":400},
+    {"id":"4", "img":"./img/procesador4.jpg", "nombre":"Procesador AMD Ryzen 7 5700G", "categoria":"Procesadores", "precio":600},
+
+    {"id":"5", "img":"./img/placama1.jpg", "nombre":"Placa Madre ASUS PRIME A520m", "categoria":"Placas Madre", "precio":200},
+    {"id":"6", "img":"./img/placama2.jpg", "nombre":"Placa Madre MSI GAMING B550m", "categoria":"Placas Madre", "precio":300},
+    {"id":"7", "img":"./img/placama3.jpg", "nombre":"Placa Madre Gigabyte B450m", "categoria":"Placas Madre", "precio":150},
+    {"id":"8", "img":"./img/placama4.jpg", "nombre":"Placa Madre Asrock H510m", "categoria":"Placas Madre", "precio":350},
+
+    {"id":"9", "img":"./img/ram1.jpg", "nombre":"Memoria RAM Corsair 16GB", "categoria":"RAMs", "precio":60},
+    {"id":"10", "img":"./img/ram2.jpg", "nombre":"Memoria RAM Kingston 32GB", "categoria":"RAMs", "precio":100},
+    {"id":"11", "img":"./img/ram3.jpg", "nombre":"Memoria RAM Fury 8GB", "categoria":"RAMs", "precio":30},
+    {"id":"12", "img":"./img/ram4.jpg", "nombre":"Memoria RAM Vengeance 8GB", "categoria":"RAMs", "precio":50},
+
+    {"id":"13", "img":"./img/placavi1.jpg", "nombre":"Placa De Video MSI Geforce Rtx 3050 Ventus 8GB", "categoria":"Placas de Video", "precio":500},
+    {"id":"14", "img":"./img/placavi2.jpg", "nombre":"Placa De Video MSI Geforce Gtx 1650 D6 Ventus 4GB", "categoria":"Placas de Video", "precio":450},
+    {"id":"15", "img":"./img/placavi3.jpg", "nombre":"Placa De Video AMD PowerColor Red Devil RX 6900 XT 16GB", "categoria":"Placas de Video", "precio":600},
+    {"id":"16", "img":"./img/placavi4.jpg", "nombre":"Placa de Video Gigabyte RX 6500 XT Eagle 4GB", "categoria":"Placas de Video", "precio":300}
+]
+

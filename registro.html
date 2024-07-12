@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-2.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Registro</h2>
+        <form id="registro-form">
+            <label class="usuario-texto" for="registro-usuario">Usuario:</label>
+            <input type="text" id="registro-usuario" class="input-login-registro" name="registro-usuario" required><br><br>
+            <label class="pass-texto" for="registro-pass">Contraseña:</label>
+            <input type="password" id="registro-pass" class="input-login-registro" name="registro-pass" required><br><br>
+            <label class="correo-texto" for="registro-email">Correo electronico:</label>
+            <input type="email" id="registro-email" class="input-login-registro" name="registro-email" required><br><br>
+            <input class="boton-enviar" type="submit" value="Registrarse">
+        </form>
+        <p class="texto-cuenta">¿Ya tienes cuenta? <a href="login.html">Iniciar sesion</a></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/registro.js"></script>
+</body>
+</html>
